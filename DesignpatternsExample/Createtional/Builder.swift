@@ -41,7 +41,7 @@ class CarBuilder: CarBuilderProtocol{
 }
 
 // MARK: Usage
-class Usage {
+class UsageBuilder {
     init() {
         let builder = CarBuilder()
         let car = builder.setWeel(weel: 4).setColor(color: "White").build()

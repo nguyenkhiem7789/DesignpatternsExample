@@ -3,6 +3,7 @@
 //when you need to use several existing subclasses but they lack particular functionality and, on top of that, you can’t extend the superclass.
 //
 /// Adapter biến những tính chất của đối tượng mình không cần thành tính chất mà mình cần
+/// Adapter chuyển đổi mã nguồn để làm việc được với mã nguồn khác
 
 import Foundation
 
@@ -82,7 +83,7 @@ class ThunderboltAdapter {
 }
 
 // MARK: Usage
-class Usage {
+class UsageAdapter {
     init() {
         let DEMO_TEXT: String = "My Name is Mahbub. I like to use design pattern as much as possible"
 
