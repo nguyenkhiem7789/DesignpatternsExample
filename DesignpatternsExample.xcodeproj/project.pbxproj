@@ -11,6 +11,10 @@
 		18A3CC1E2457C0AF0015EBF8 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC1D2457C0AF0015EBF8 /* Adapter.swift */; };
 		18A3CC212457C98E0015EBF8 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC202457C98E0015EBF8 /* Decorator.swift */; };
 		18A3CC232457DD600015EBF8 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC222457DD600015EBF8 /* Facade.swift */; };
+		18A3CC262457E7610015EBF8 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC252457E7610015EBF8 /* Template.swift */; };
+		18A3CC28245811ED0015EBF8 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC27245811ED0015EBF8 /* Command.swift */; };
+		18A3CC2A24581FC40015EBF8 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC2924581FC40015EBF8 /* Iterator.swift */; };
+		18A3CC2C245826F10015EBF8 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3CC2B245826F10015EBF8 /* Observer.swift */; };
 		18C274372451A8D400E47DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C274362451A8D400E47DE9 /* AppDelegate.swift */; };
 		18C274392451A8D400E47DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C274382451A8D400E47DE9 /* SceneDelegate.swift */; };
 		18C2743B2451A8D400E47DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2743A2451A8D400E47DE9 /* ViewController.swift */; };
@@ -43,6 +47,10 @@
 		18A3CC1D2457C0AF0015EBF8 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		18A3CC202457C98E0015EBF8 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		18A3CC222457DD600015EBF8 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		18A3CC252457E7610015EBF8 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		18A3CC27245811ED0015EBF8 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		18A3CC2924581FC40015EBF8 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		18A3CC2B245826F10015EBF8 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		18C274332451A8D400E47DE9 /* DesignpatternsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignpatternsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C274362451A8D400E47DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C274382451A8D400E47DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +110,17 @@
 			path = Structural;
 			sourceTree = "<group>";
 		};
+		18A3CC242457E7330015EBF8 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				18A3CC252457E7610015EBF8 /* Template.swift */,
+				18A3CC27245811ED0015EBF8 /* Command.swift */,
+				18A3CC2924581FC40015EBF8 /* Iterator.swift */,
+				18A3CC2B245826F10015EBF8 /* Observer.swift */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
 		18C2742A2451A8D400E47DE9 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +144,7 @@
 		18C274352451A8D400E47DE9 /* DesignpatternsExample */ = {
 			isa = PBXGroup;
 			children = (
+				18A3CC242457E7330015EBF8 /* Behavioral */,
 				18A3CC1F2457C85B0015EBF8 /* Structural */,
 				187BA1F02456CA4A00DA8905 /* Createtional */,
 				18C274362451A8D400E47DE9 /* AppDelegate.swift */,
@@ -290,8 +310,12 @@
 				18C2743B2451A8D400E47DE9 /* ViewController.swift in Sources */,
 				18C274372451A8D400E47DE9 /* AppDelegate.swift in Sources */,
 				18C274392451A8D400E47DE9 /* SceneDelegate.swift in Sources */,
+				18A3CC2A24581FC40015EBF8 /* Iterator.swift in Sources */,
 				18A3CC232457DD600015EBF8 /* Facade.swift in Sources */,
 				18A3CC1E2457C0AF0015EBF8 /* Adapter.swift in Sources */,
+				18A3CC28245811ED0015EBF8 /* Command.swift in Sources */,
+				18A3CC262457E7610015EBF8 /* Template.swift in Sources */,
+				18A3CC2C245826F10015EBF8 /* Observer.swift in Sources */,
 				187BA1EF2456CA4000DA8905 /* Builder.swift in Sources */,
 				18A3CC212457C98E0015EBF8 /* Decorator.swift in Sources */,
 			);
